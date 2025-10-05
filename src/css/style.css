@@ -40,7 +40,7 @@
     justify-content: center;
 }
 
-.h1 {
+h1 {
     font-family: "texturina";
     font-size: 30px;
     margin-left: 20px;
@@ -55,5 +55,11 @@
     justify-content: center;
 }
 .box {
-    border: 20px solid #c3eebf;
+    border: 10px solid #c3eebf;
+    text-align: center;
+}
+
+h2 {
+    background-color: #c3eebf;
+    text-align: center;
 }
