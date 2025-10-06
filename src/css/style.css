@@ -1,10 +1,17 @@
 .logo {
-    width: 150px;
+    width: 160px;
     height: auto;
-    margin-left: 50%;
     margin-top: 5px;
-    text-align: center
+    margin-left: 25px;
 }
+
+.sing {
+    margin-left: 75%;
+    background-color: gray;
+    text-align: right;
+    width: 9%;
+}
+
 .header {
     padding: 0;
     margin-top: 0;
@@ -22,7 +29,7 @@
 .navbar {
     display: flex; 
     justify-content: space-between;
-    width: 90%;
+    width: 95%;
     height: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #c3eebf;
@@ -32,9 +39,15 @@
     margin-left: 50px;
 }
 
+input {
+    border-radius: 10px;
+   
+}
+
 .dinobanner {
-    width: 65%;
+    width: 70%;
     margin-left: 200px;
+    margin-right: 200px;
     margin-top: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     justify-content: center;
@@ -46,6 +59,7 @@ h1 {
     margin-left: 20px;
     text-align: center;
     color: #b8860b;
+    font-weight: bolder;
 }
 
 .intro {
@@ -54,9 +68,13 @@ h1 {
     gap: 30PX;
     justify-content: center;
 }
+
 .box {
     border: 10px solid #c3eebf;
     text-align: center;
+    box-shadow:#b8860b;
+    padding: 5px;
+    font-weight: bold;
 }
 
 h2 {
