@@ -81,6 +81,9 @@ h2 {
     background-color: #c3eebf;
     text-align: center;
 }
+h3{
+    font-style: italic;
+}
 
 .book {
     .shadow-effect 
@@ -104,6 +107,11 @@ footer {
     text-align: right;
     margin: 50px;
 
+}
+
+p {
+    width: 80%;
+    margin: 20px;
 }
 
 
