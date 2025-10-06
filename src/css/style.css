@@ -81,3 +81,16 @@ h2 {
     background-color: #c3eebf;
     text-align: center;
 }
+
+.book {
+    .shadow-effect 
+    border: none;
+    color:black;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #c3eebf
+}
+
+
+.section 
