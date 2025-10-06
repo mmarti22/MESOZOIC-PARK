@@ -92,5 +92,23 @@ h2 {
     background-color: #c3eebf
 }
 
+footer {
+    display: flex; 
+    justify-content: space-between;
+    width: 95%;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #c3eebf;
+    font-family: "texturina";
+    font-size: 20px;
+    text-align: right;
+    margin: 50px;
 
-.section 
+}
+
+
+.aboutus {
+    width: 75%;
+    text-align: center;
+    margin-left: 10%;
+}
