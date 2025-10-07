@@ -26,6 +26,7 @@
                 <button>Search</button>
             </nav>
         </header>
+        
         <p>Select the destination and we will send you all the information to your email!</p>
         <form action="#">
       <label for="lang">Destination</label>
@@ -34,14 +35,31 @@
         <option value="Jurassic">Jurassic</option>
         <option value="Cretaceous">Cretaceous</option>
       </select>
-      <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar" />
+      </form>
+     
+      <div class="booking-form">
+    <h2>Reservar ahora</h2>
+    <form action="#" method="post">
+      <label for="checkin">Fecha de entrada:</label>
+      <input type="date" id="checkin" name="checkin" required>
+
+      <label for="checkout">Fecha de salida:</label>
+      <input type="date" id="checkout" name="checkout" required>
+
+      <label for="guests">Número de personas:</label>
+      <input type="number" id="guests" name="guests" min="1" max="10" required>
+
+      <button type="submit">Reservar</button>
+   
+  </div>
+   
 </form>
 
 
             
             
-        
-        
+            
     </body>
     <footer>Mesozoik Park-2025. All right reserved. 90 Bedford Street, Grove St., New York 1420</footer>
 </html>

@@ -80,9 +80,13 @@ h1 {
 h2 {
     background-color: #c3eebf;
     text-align: center;
-    width: 80%;
-    margin: 20px;
+    width: 100%;
+    margin: ;
+    
 }
+
+
+
 h3 {
     font-style: italic;
     margin: 5px;
@@ -166,3 +170,47 @@ p {
     background: #45A049;
     }
 
+
+    .booking-form {
+      width: 300px;
+      padding: 20px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      margin-left: 35%;
+      margin-top: 5%;
+      margin-bottom: 20%;
+    }
+
+    .booking-form h2 {
+      text-align: center;
+    }
+
+    .booking-form label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    .booking-form input,
+    .booking-form select,
+    .booking-form button {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .booking-form button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .booking-form button:hover {
+      background-color: #45a049;
+    }
+    
