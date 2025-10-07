@@ -39,9 +39,9 @@
     margin-left: 50px;
 }
 
-input {
+.search {
     border-radius: 10px;
-   
+
 }
 
 .dinobanner {
@@ -83,7 +83,7 @@ h2 {
     width: 80%;
     margin: 20px;
 }
-h3{
+h3 {
     font-style: italic;
     margin: 5px;
 }
@@ -126,3 +126,40 @@ p {
     text-align: center;
     margin-left: 10%;
 }
+
+.container {
+    align-items: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 300px;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    }
+
+
+.form1 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+.submit:hover {
+    background: #45A049;
+    }
+
